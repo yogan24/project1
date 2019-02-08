@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="img/phone-icon/apple-touch-icon.png">
+    <link rel="apple-touch-startup-image" href="img/phone-icon/apple-touch-startup-image-320x460.jpg">
+    <link rel="shortcut icon" sizes="196x196" href="img/phone-icon/196x196.jpg">
+    <link rel="shortcut icon" sizes="128x128" href="img/phone-icon/128x128.jpg">
+    <title>Pride - Mobile Template</title>
+    <!--fonts themfy-->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!--google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Lato|Montserrat" rel="stylesheet">
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <!-- 3dpanels css-->
+    <link rel="stylesheet" type="text/css" href="css/framework7.3dpanels.min.css">
+    <!-- swipbox css-->
+    <link rel="stylesheet" type="text/css" href="css/swipebox.min.css">
+    <!-- swiper css-->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+</head>
+
+<body>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+        <div class="panel-user-info row margin-top-30">
+            <div class="user-img col-100">
+              <img src="img/6.jpg" />
+            </div>
+            <div class="user-info col-100">
+              <h4>Jhon Doe</h4>
+              <a href="user-page.html" class="close-panel"><h6>PROFILE</h6></a>
+            </div>
+        </div>
+        <div class="list-block list-menu margin-top-30">
+            <ul class="no-border">
+                <li>
+                    <a href="mainpage.html" class="close-panel">
+                      <h4>HOME</h4>
+                    </a>
+                </li>
+                <li class="margin-top-15">
+                    <a href="shop.html" class="close-panel">
+                      <h4>SHOP</h4>
+                    </a>
+                </li>
+                <li class="margin-top-15">
+                    <a href="blog.html" class="close-panel">
+                      <h4>BLOG</h4>
+                    </a>
+                </li>
+                <li class="margin-top-15">
+                    <a href="newfeed.html" class="close-panel">
+                      <h4>FEED</h4>
+                    </a>
+                </li>
+                <li class="margin-top-15">
+                    <a href="gallery.html" class="close-panel">
+                      <h4>GALLERY</h4>
+                    </a>
+                </li>
+                <li class="margin-top-15">
+                    <a href="features.html" class="close-panel">
+                      <h4>FEATURES</h4>
+                    </a>
+                </li>
+                <li class="margin-top-15">
+                    <a href="user-page.html" class="close-panel">
+                      <h4>USER PAGE</h4>
+                    </a>
+                </li>
+                <li class="margin-top-15">
+                    <a href="contactus.html" class="close-panel">
+                      <h4>CONTACT</h4>
+                    </a>
+                </li>
+                <li class="margin-top-15">
+                    <a href="register.html" class="close-panel">
+                      <h4>REGISTER</h4>
+                    </a>
+                </li>
+                <li class="margin-top-15">
+                    <a href="index.html" class="close-panel">
+                      <h4>LOGOUT</h4>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Right panel with cover effect-->
+    <div class="panel panel-right panel-cover">
+
+    </div>
+    <!-- Views-->
+    <div class="views">
+        <!-- Your main view, should have "view-main" class-->
+        <div class="view view-main">
+            <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+            <div class="pages">
+                <!-- Page, data-page contains page name-->
+                <div data-page="index" class="page">
+                    <!-- Scrollable page content-->
+                    <div class="page-content cover-page">
+                        <!-- Top Navbar-->
+                        <div class="navbar">
+                            <div class="navbar-inner">
+                                <div class="right">
+                                    <a href="#" class="link icon-only open-panel">
+                                        <span class="ti-align-right"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--main content-->
+                        <div class="cover-content">
+                          <div class="content-block">
+                            <div class="cover-logo margin-top-20">
+                              <h1>PRIDE</h1>
+                            </div>
+                            <div class="log-sec offeset-top-75">
+                              <div class="list-block">
+                                <ul>
+                                  <li>
+                                    <div class="item-content">
+                                      <div class="item-media">
+                                        <span class="ti-user"></span>
+                                      </div>
+                                      <div class="item-inner">
+                                        <div class="item-input">
+                                            <input type="text"  placeholder="NAME">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="item-content margin-top-15">
+                                      <div class="item-media">
+                                        <span class="ti-lock"></span>
+                                      </div>
+                                      <div class="item-inner">
+                                        <div class="item-input">
+                                            <input type="password"  placeholder="PASSWORD">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="log-in-btn margin-top-15 margin-bottom-30" >
+                                <a href="mainpage.html">
+                                  <span class="ti-angle-right"></span>
+                                </a>
+                              </div>
+                              <div class="cover-forgot-psw offeset-top-75">
+                                <a href="forgotpsw.html"><h4>Forgot Password ? <span>Remind Me</span></h4></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Path to Framework7 Library JS-->
+        <script type="text/javascript" src="js/framework7.min.js"></script>
+        <!-- jquery-->
+        <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+        <!-- 3panels js-->
+        <script type="text/javascript" src="js/framework7.3dpanels.min.js"></script>
+        <!--swipebox js-->
+        <script type="text/javascript" src="js/jquery.swipebox.js"></script>
+        <!--swiper js-->
+        <script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+        <!--main js-->
+        <script type="text/javascript" src="js/my-app.js"></script>
+</body>
+
+</html>
